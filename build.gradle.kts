@@ -34,18 +34,6 @@ allprojects {
     repositories {
         mavenCentral()
         mavenLocal()
-        maven {
-            url = uri("https://repo.unethicalite.net/releases/")
-            mavenContent {
-                releasesOnly()
-            }
-        }
-        maven {
-            url = uri("https://repo.unethicalite.net/snapshots/")
-            mavenContent {
-                snapshotsOnly()
-            }
-        }
     }
 
     dependencies {
